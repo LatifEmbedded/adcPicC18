@@ -1,7 +1,10 @@
-### ADC PROGRAMMING : 
-ADC PERIPHERAL FOR CONVERTING ANALOG SIGNALS TO DIGITAL SIGNALS
-mainCode.c source file uses polling 
-adcInterrupt.c source file uses interrupt
-the PIC18F452 has an adc module of 10 bit resolution with 8 analog channalers capable of converting differenting physical quantities
-### NOTE :
-Using Proteus and Picsimlab to view the output and MPLAB IDE + C18 compiler in order to programme the adc
+
+### ADC Programming:
+An Analog-to-Digital Converter (ADC) is a device responsible for converting analog signals to digital signals, allowing the CPU to process this information. 
+This repository contains instructions on how to program an ADC using both C and assembly languages.
+Modern microcontrollers often have built-in ADC modules to reduce the number of pins required for other applications. 
+The PIC18F352 microcontroller, for example, features 8 analog input channels and a 10-bit resolution.
+
+#### Files in This Repository:
+- mainCode.c: Demonstrates ADC programming using polling.
+- adcInterrupt.c: Demonstrates ADC programming using interrupts.
